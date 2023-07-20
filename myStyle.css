@@ -1,0 +1,1286 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    /* home-section */
+    .box-container {
+        padding-top: 100px;
+    }
+    .intro-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px;
+        height: 650px;
+    }
+    .greeting {
+        line-height: 60px;
+        margin-top: -80px;
+    }
+    .greeting .hello {
+        font-size: 50px;
+    }
+    .greeting .name {
+        font-size: 70px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .greeting p {
+        margin-bottom: 50px;
+    }
+    .cute-stickman img {
+        height: 450px;
+    }
+    .cute-stickman {
+        margin-top: -120px
+    }
+    
+    /* about-section */
+    .about {
+        font-size: 25px;
+    }
+    .about-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 600px;
+        width: 90%;
+    }
+    .about-profile {
+        margin-top: -10px;
+    }
+    .about-profile img {
+        height: 200px;
+        border-radius: 50%;
+    }
+    .about-text {
+        margin-top: -30px;
+        padding: 5px;
+    }
+    .about-text p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    /* education-section */
+    .education {
+        padding-top: 130px;
+        font-size: 25px;
+    }
+    .education-container {
+        grid-template-columns: repeat(1, 1fr);
+        height: 800px;
+        width: 90%;
+    }
+    .dlsjbc-logo, .club-logo {
+        height: 80px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .education-text {
+        padding: 0px 10px;
+    }
+    .education-text .course-name, .awards-name {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .awards-name {
+        margin-top: -30px;
+    }
+    .education-text .school-name {
+        font-size: 18px;
+    }
+    .education-text .awards-title {
+        font-size: 16px;
+    }
+
+    .education-text .school-year {
+        font-size: 15px;
+    }
+    .education-profile img {
+        height: 370px;
+        margin-top: -50px;
+    }
+
+
+    /* skills-section */
+    .skills {
+        margin-top: 25px;
+    }
+    .skill-title {
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    .skill-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 500px;
+        width: 70%;
+    }
+    .skill-container .items:hover {
+        transform: translateY(-10px);
+    }
+    .items img {
+        height: 50px;
+    }
+    .items p {
+        font-size: 15px;
+    }
+    .buttons a {
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #0055d3;
+        /* background-color: #172142; */
+        color: #fff;
+        font-size: 12px;
+    }
+
+    /* other-skills-section */
+    .other-skill-title {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .other-skill-container {
+        width: 70%;
+        margin-top: 15px;
+        padding: 0px;
+        background-color: #fff;
+        height: 100px;
+        margin-bottom: 350px;
+    }
+    .other-skill-container .items img {
+        height: 35px;
+    }
+    .other-skill-container .items:hover {
+        transform: translateY(-10px);
+    }
+
+    /* projects-section */
+    .project-section-title {
+        font-size: 28px;
+    }
+    .projects-container {
+        height: 900px;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container img {
+        height: 200px;
+    }
+    .container p {
+        font-size: 15px;
+    }
+
+    /* my-latest-works */
+    .latest-section-title {
+        margin-top: -300px;
+        margin-bottom: 10px;
+    }
+    .title {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 20px;
+        margin-bottom: 15px;
+    }
+    .latest-section-title {
+        font-size: 25px;
+    }
+    .latest-works-container {
+        width: 90%;
+        height: 480px;
+    }
+    .l-container img {
+        height: 180px;
+        margin-top: -5px;
+        margin-bottom: 50px;
+    }
+    .r-container .description-info {
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+    .view-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* project2 */
+    .latest-works-container2 {
+        width: 90%;
+        height: 720px;
+    }
+    .project2 {
+        width: 100%;
+    }
+    .l-container .food-express {
+        height: 225px;
+    }
+    .l-container .food-express-recommendations {
+        height: 240px;
+        margin-bottom: 5px;
+        margin-top: -80px;
+    }
+
+    /* project3 */
+    .latest-works-container3 {
+        width: 90%;
+        height: 1200px;
+    }
+    .l-container3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .l-container3 .ecommerce-gen {
+        height: 240px;
+    }
+
+    /* certification-section */
+    .cert-section-title {
+        font-size: 25px;
+    }
+    .certifications-container {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        height: 2050px;
+    }
+    .certifications-container .container {
+        margin-bottom: 30px;
+    }
+    .certifications-container .container p {
+        color: #172142;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .social-media img {
+        transition: transform 0.3s;
+        height: 40px;
+    }
+    .contact-container {
+        width: 40%;
+    }
+    .bonus-info .email-phone {
+        font-size: 15px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    /* home-section */
+    .box-container {
+        padding-top: 100px;
+    }
+    .intro-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px;
+        height: 650px;
+    }
+    .greeting {
+        line-height: 70px;
+        margin-top: -50px;
+    }
+    .greeting .hello {
+        font-size: 50px;
+    }
+    .greeting .name {
+        font-size: 80px;
+        text-align: center;
+    }
+    .greeting p {
+        margin-bottom: 50px;
+        font-size: 50px;
+    }
+    .cute-stickman img {
+        height: 350px;
+    }
+    .cute-stickman {
+        margin-top: -120px;
+    }
+
+    /* about-section */
+    .about {
+        font-size: 25px;
+    }
+    .about-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 600px;
+        width: 90%;
+    }
+    .about-profile {
+        margin-top: -10px;
+    }
+    .about-profile img {
+        height: 200px;
+        border-radius: 50%;
+    }
+    .about-text {
+        margin-top: -30px;
+        padding: 5px;
+    }
+    .about-text p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    /* education-section */
+    .education {
+        padding-top: 130px;
+        font-size: 25px;
+    }
+    .education-container {
+        grid-template-columns: repeat(1, 1fr);
+        height: 800px;
+        width: 90%;
+    }
+    .dlsjbc-logo, .club-logo {
+        height: 80px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .education-text {
+        padding: 0px 10px;
+    }
+    .education-text .course-name, .awards-name {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .awards-name {
+        margin-top: -30px;
+    }
+    .education-text .school-name {
+        font-size: 18px;
+    }
+    .education-text .awards-title {
+        font-size: 16px;
+    }
+
+    .education-text .school-year {
+        font-size: 15px;
+    }
+    .education-profile img {
+        height: 370px;
+        margin-top: -50px;
+    }
+
+    /* skills-section */
+    .skills {
+        margin-top: 25px;
+    }
+    .skill-title {
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    .skill-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 300px;
+        width: 80%;
+    }
+    .skill-container .items:hover {
+        transform: translateY(-10px);
+    }
+    .items img {
+        height: 50px;
+    }
+    .items p {
+        font-size: 15px;
+    }
+    .buttons a {
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #0055d3;
+        /* background-color: #172142; */
+        color: #fff;
+        font-size: 12px;
+    }
+
+    /* other-skills-section */
+    .other-skill-title {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .other-skill-container {
+        width: 50%;
+        margin-top: 15px;
+        padding: 0px;
+        background-color: #fff;
+        height: 100px;
+        margin-bottom: 350px;
+    }
+    .other-skill-container .items img {
+        height: 35px;
+    }
+    .other-skill-container .items:hover {
+        transform: translateY(-10px);
+    }
+
+    /* projects-section */
+    .project-section-title {
+        font-size: 25px;
+    }
+    .projects-container {
+        height: 900px;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container img {
+        height: 200px;
+    }
+    .container p {
+        font-size: 15px;
+    }
+
+    /* my-latest-works */
+    .latest-section-title {
+        margin-top: -300px;
+        margin-bottom: 10px;
+    }
+    .title {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 20px;
+        margin-bottom: 15px;
+    }
+    .latest-section-title {
+        font-size: 25px;
+    }
+    .latest-works-container {
+        width: 90%;
+        height: 480px;
+    }
+    .l-container img {
+        height: 220px;
+        margin-top: -5px;
+        margin-bottom: 50px;
+    }
+    .r-container .description-info {
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+    .view-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* project2 */
+    .latest-works-container2 {
+        width: 90%;
+        height: 720px;
+    }
+    .project2 {
+        width: 100%;
+    }
+    .l-container .food-express {
+        height: 280px;
+    }
+    .l-container .food-express-recommendations {
+        height: 295px;
+        margin-bottom: 25px;
+        margin-top: -60px;
+    }
+
+    /* project3 */
+    .latest-works-container3 {
+        width: 90%;
+        height: 1450px;
+    }
+    .l-container3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .l-container3 .ecommerce-gen {
+        height: 300px;
+    }
+
+    /* certification-section */
+    .cert-section-title {
+        font-size: 25px;
+    }
+    .certifications-container {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        height: 2050px;
+    }
+    .certifications-container .container {
+        margin-bottom: 30px;
+    }
+    .certifications-container .container p {
+        color: #172142;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .social-media img {
+        transition: transform 0.3s;
+        height: 40px;
+    }
+    .contact-container {
+        width: 30%;
+    }
+    .bonus-info .email-phone {
+        font-size: 15px ;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* home-section */
+    .box-container {
+        padding-top: 50px;
+    }
+    .intro-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px;
+        height: 650px;
+    }
+    .greeting .hello {
+        font-size: 60px;
+        margin-top: 50px;
+    }
+    .greeting .name {
+        font-size: 100px;
+        text-align: center;
+    }
+    .greeting p {
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+    .cute-stickman img {
+        height: 320px;
+    }
+
+    /* about-section */
+    .about {
+        font-size: 25px;
+    }
+    .about-container {
+        grid-template-columns: repeat(1, 1fr 2fr);
+        height: 425px;
+        width: 90%;
+    }
+    .about-profile {
+        margin-top: 0px;
+    }
+    .about-profile img {
+        height: 250px;
+        border-radius: 50%;
+    }
+    .about-text {
+        margin-top: -15px;
+        padding: 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-text p {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    /* education-section */
+    .education {
+        font-size: 25px;
+        margin-top: -450px;
+    }
+    .education-container {
+        grid-template-columns: repeat(1, 3fr 1fr);
+        height: 450px;
+        width: 90%;
+    }
+    .dlsjbc-logo, .club-logo {
+        height: 80px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .education-text {
+        width: 100%;
+    }
+    .education-text .course-name, .awards-name {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .education-text .school-name {
+        font-size: 22px;
+    }
+    .education-text .awards-title {
+        font-size: 20px;
+    }
+
+    .education-text .school-year {
+        font-size: 18px;
+    }
+    .education-profile img {
+        height: 370px;
+        margin-top: 0px;
+    }
+
+    /* skills-section */
+    .skills {
+        margin-top: -300px;
+    }
+    .skill-title {
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    .skill-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        height: 180px;
+        width: 90%;
+    }
+    .skill-container .items:hover {
+        transform: translateY(-10px);
+    }
+    .items img {
+        height: 50px;
+    }
+    .items p {
+        font-size: 15px;
+    }
+    .buttons a {
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #0055d3;
+        /* background-color: #172142; */
+        color: #fff;
+        font-size: 12px;
+    }
+
+    /* other-skills-section */
+    .other-skill-title {
+        margin-top: 350px;
+        font-size: 18px;
+    }
+    .other-skill-container {
+        width: 35%;
+        margin-top: 15px;
+        padding: 0px;
+        background-color: #fff;
+        height: 100px;
+        margin-bottom: 400px;
+    }
+    .other-skill-container .items img {
+        height: 35px;
+    }
+    .other-skill-container .items:hover {
+        transform: translateY(-10px);
+    }
+
+    /* projects-section */
+    .project-section-title {
+        font-size: 25px;
+    }
+    .projects-container {
+        height: 700px;
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container img {
+        height: 250px;
+    }
+    .container p {
+        font-size: 15px;
+    }
+
+    /* my-latest-works */
+    .latest-section-title {
+        margin-top: -300px;
+        margin-bottom: 10px;
+    }
+    .title {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .latest-section-title {
+        font-size: 25px;
+    }
+    .latest-works-container {
+        width: 90%;
+        height: 600px;
+    }
+    .l-container img {
+        height: 350px;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .r-container .description-info {
+        font-size: 17px;
+        padding: 0px 30px;
+    }
+    .view-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* project2 */
+    .latest-works-container2 {
+        width: 90%;
+        height: 1100px;
+    }
+    .project2 {
+        width: 100%;
+    }
+    .l-container .food-express {
+        height: 425px;
+    }
+    .l-container .food-express-recommendations {
+        height: 450px;
+        margin-bottom: 25px;
+        margin-top: -100px;
+    }
+
+    /* project3 */
+    .latest-works-container3 {
+        width: 90%;
+        height: 2025px;
+    }
+    .l-container3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .l-container3 .ecommerce-gen {
+        height: 450px;
+    }
+
+    /* certification-section */
+    .cert-section-title {
+        font-size: 25px;
+    }
+    .certifications-container {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        height: 1200px;
+    }
+    .certifications-container .container {
+        margin-bottom: 30px;
+    }
+    .certifications-container .container p {
+        color: #172142;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .social-media img {
+        transition: transform 0.3s;
+        height: 50px;
+    }
+    .contact-container {
+        width: 25%;
+    }
+    .bonus-info .email-phone {
+        font-size: 15px ;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+   /* home-section */
+    .box-container {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px;
+        height: 650px;
+        width: 80%;
+    }
+    .greeting .hello {
+        font-size: 80px;
+        margin-top: -50px;
+    }
+    .greeting .name {
+        font-size: 120px;
+        text-align: center;
+    }
+    .greeting p {
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+    .cute-stickman img {
+        height: 450px;
+    }
+
+    /* about-section */
+    .about {
+        font-size: 25px;
+    }
+    .about-container {
+        grid-template-columns: repeat(1, 1fr 2fr);
+        height: 425px;
+        width: 80%;
+    }
+    .about-profile {
+        margin-top: 0px;
+    }
+    .about-profile img {
+        height: 250px;
+        border-radius: 50%;
+    }
+    .about-text {
+        margin-top: -15px;
+        padding: 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-text p {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    /* education-section */
+    .education {
+        font-size: 25px;
+        margin-top: -450px;
+    }
+    .education-container {
+        grid-template-columns: repeat(1, 3fr 1fr);
+        height: 450px;
+        width: 80%;
+    }
+    .dlsjbc-logo, .club-logo {
+        height: 80px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .education-text {
+        width: 100%;
+    }
+    .education-text .course-name, .awards-name {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .education-text .school-name {
+        font-size: 22px;
+    }
+    .education-text .awards-title {
+        font-size: 20px;
+    }
+
+    .education-text .school-year {
+        font-size: 18px;
+    }
+    .education-profile img {
+        height: 370px;
+        margin-top: 0px;
+    }
+
+    /* skills-section */
+    .skills {
+        margin-top: -300px;
+    }
+    .skill-title {
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    .skill-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        height: 200px;
+        width: 80%;
+        gap: 0px;
+    }
+    .skill-container .items:hover {
+        transform: translateY(-10px);
+    }
+    .items img {
+        height: 80px;
+    }
+    .items p {
+        font-size: 20px;
+    }
+    .buttons a {
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #0055d3;
+        /* background-color: #172142; */
+        color: #fff;
+        font-size: 15px;
+    }
+
+    /* other-skills-section */
+    .other-skill-title {
+        margin-top: 350px;
+        font-size: 20px;
+    }
+    .other-skill-container {
+        width: 40%;
+        margin-top: 15px;
+        padding: 0px;
+        background-color: #fff;
+        height: 130px;
+        margin-bottom: 400px;
+    }
+    .other-skill-container .items img {
+        height: 50px;
+    }
+    .other-skill-container .items:hover {
+        transform: translateY(-10px);
+    }
+
+    /* projects-section */
+    .project-section-title {
+        font-size: 25px;
+    }
+    .projects-container {
+        height: 700px;
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container img {
+        height: 250px;
+    }
+    .container p {
+        font-size: 15px;
+    }
+
+    /* my-latest-works */
+    .latest-section-title {
+        margin-top: -300px;
+        margin-bottom: 10px;
+    }
+    .title {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .latest-section-title {
+        font-size: 25px;
+    }
+    .latest-works-container {
+        width: 80%;
+        height: 650px;
+    }
+    .l-container img {
+        height: 380px;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .r-container .description-info {
+        font-size: 17px;
+        padding: 0px 30px;
+    }
+    .view-btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    /* project2 */
+    .latest-works-container2 {
+        width: 80%;
+        height: 1170px;
+    }
+    .project2 {
+        width: 100%;
+    }
+    .l-container .food-express {
+        height: 480px;
+    }
+    .l-container .food-express-recommendations {
+        height: 510px;
+        margin-bottom: 20px;
+        margin-top: -120px;
+    }
+
+    /* project3 */
+    .latest-works-container3 {
+        width: 80%;
+        height: 2250px;
+    }
+    .l-container3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .l-container3 .ecommerce-gen {
+        height: 500px;
+    }
+
+    /* certification-section */
+    .cert-section-title {
+        font-size: 25px;
+    }
+    .certifications-container {
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        height: 1200px;
+    }
+    .certifications-container .container {
+        margin-bottom: 30px;
+    }
+    .certifications-container .container p {
+        color: #172142;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .contact-container {
+        width: 20%;
+    }
+    .bonus-info .email-phone {
+        font-size: 12px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    /* home-section */
+    .box-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-info {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr 1fr);
+        padding: 15px;
+        height: 650px;
+        width: 90%;
+        margin-top: 0px;
+    }
+    .greeting .hello {
+        font-size: 80px;
+    }
+    .greeting .name {
+        font-size: 120px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .greeting p {
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+    .cute-stickman img {
+        height: 600px;
+    }
+    /* about-section */
+        .about {
+            font-size: 30px;
+        }
+        .about-container {
+            grid-template-columns: repeat(1, 1fr 2fr);
+            height: 450px;
+            width: 70%;
+        }
+        .about-profile {
+            margin-top: 0px;
+        }
+        .about-profile img {
+            height: 250px;
+            border-radius: 50%;
+        }
+        .about-text {
+            margin-top: -15px;
+            padding: 0px 25px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .about-text p {
+            font-size: 20px;
+            text-align: justify;
+        }
+    
+        /* education-section */
+        .education {
+            font-size: 30px;
+            margin-top: -450px;
+        }
+        .education-container {
+            grid-template-columns: repeat(1, 3fr 1fr);
+            height: 450px;
+            width: 70%;
+        }
+        .dlsjbc-logo, .club-logo {
+            height: 120px;
+            margin-right: 10px;
+            margin-bottom: 15px;
+        }
+        .education-text {
+            width: 100%;
+        }
+        .education-text .course-name, .awards-name {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .education-text .school-name {
+            font-size: 25px;
+        }
+        .education-text .awards-title {
+            font-size: 22px;
+        }
+    
+        .education-text .school-year {
+            font-size: 20px;
+        }
+        .education-profile img {
+            height: 370px;
+            margin-top: 0px;
+        }
+    
+        /* skills-section */
+        .skills {
+            margin-top: -300px;
+        }
+        .skill-title {
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+        .skill-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            height: 220px;
+            width: 60%;
+            gap: 0px;
+        }
+        .skill-container .items:hover {
+            transform: translateY(-10px);
+        }
+        .items img {
+            height: 80px;
+        }
+        .items p {
+            font-size: 20px;
+        }
+        .buttons a {
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #0055d3;
+            /* background-color: #172142; */
+            color: #fff;
+            font-size: 15px;
+        }
+    
+        /* other-skills-section */
+        .other-skill-title {
+            margin-top: 350px;
+            font-size: 18px;
+        }
+        .other-skill-container {
+            width: 25%;
+            margin-top: 15px;
+            padding: 0px;
+            height: 130px;
+            margin-bottom: 400px;
+            background-color: #eeeeee;
+        }
+        .other-skill-container .items img {
+            height: 50px;
+        }
+        .other-skill-container .items:hover {
+            transform: translateY(-10px);
+        }
+    
+        /* projects-section */
+        .project-section-title {
+            font-size: 30px;
+        }
+        .projects-container {
+            height: 400px;
+            width: 70%;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .container img {
+            height: 250px;
+        }
+        .container p {
+            font-size: 15px;
+        }
+    
+        /* my-latest-works */
+        .latest-section-title {
+            margin-top: -280px;
+            margin-bottom: 10px;
+        }
+        .title {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .latest-section-title {
+            font-size: 28px;
+        }
+        .latest-works-container {
+            width: 70%;
+            height: 750px;
+        }
+        .l-container img {
+            height: 450px;
+            margin-top: 0px;
+            margin-bottom: 70px;
+        }
+        .r-container .description-info {
+            font-size: 17px;
+            padding: 0px 50px;
+        }
+        .view-btn {
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+    
+        /* project2 */
+        .latest-works-container2 {
+            width: 70%;
+            height: 1350px;
+        }
+        .project2 {
+            width: 100%;
+        }
+        .l-container .food-express {
+            height: 570px;
+        }
+        .l-container .food-express-recommendations {
+            height: 590px;
+            margin-bottom: 20px;
+            margin-top: -120px;
+        }
+    
+        /* project3 */
+        .latest-works-container3 {
+            width: 70%;
+            height: 750px;
+        }
+        .l-container3 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .l-container3 .ecommerce-gen {
+            height: 290px;
+        }
+    
+        /* certification-section */
+        .cert-section-title {
+            font-size: 28px;
+        }
+        .certifications-container {
+            width: 95%;
+            grid-template-columns: repeat(3, 1fr);
+            height: 900px;
+        }
+        .certifications-container .container {
+            margin-bottom: 30px;
+        }
+        .certifications-container .container p {
+            color: #172142;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .contact-container {
+            width: 15%;
+        }
+        .bonus-info .email-phone {
+            font-size: 15px;
+        }
+    }
+    
+
+
+
